@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman E-commerce Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            margin-top: 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        
+        nav a:hover {
+            color: orange;
+        }
+        
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .product {
+            background-color: #222;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .product h2 {
+            color: orange;
+            margin-top: 0;
+        }
+        
+        .price {
+            font-size: 1.5em;
+            color: orange;
+            margin: 10px 0;
+        }
+        
+        .buy-button {
+            background-color: orange;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+        }
+        
+        .buy-button:hover {
+            background-color: #ff8c00;
+        }
+        
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halaman E-commerce Sederhana</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Produk</a>
+            <a href="#">Keranjang</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+    
+    <div class="products">
+        <div class="product">
+            <h2>Poco F7 Ultra</h2>
+            <div class="price">Rp9.599.000</div>
+            <p>Snapdragon® 8 Elite VisionBoost D7 Chipset<br>
+            120W wired and 50W wireless HyperCharge<br>
+            Layar AMOLED Flow 2K 120 Hz<br>
+            50MP triple camera with OIS<br>
+            IP68 dust and water resistance</p>
+            <button class="buy-button">Beli</button>
+        </div>
+        
+        <div class="product">
+            <h2>Poco F7 Pro</h2>
+            <div class="price">Rp6.999.000</div>
+            <p>Snapdragon® 8 Gen 3 VisionBoost D7 Chipset<br>
+            120W wired and 50W wireless HyperCharge<br>
+            Layar AMOLED Flow 2K 120 Hz<br>
+            50MP triple camera with OIS<br>
+            IP68 dust and water resistance</p>
+            <button class="buy-button">Beli</button>
+        </div>
+        
+        <div class="product">
+            <h2>Poco X7 Pro</h2>
+            <div class="price">Rp4.799.000</div>
+            <p>Dimensity 8400-Ultra<br>
+            6000mAh (typ) battery with 90W HyperCharge<br>
+            CrystalRes 1.5K 120Hz AMOLED display<br>
+            50MP main camera with OIS<br>
+            IP68* dust and water resistance</p>
+            <button class="buy-button">Beli</button>
+        </div>
+    </div>
+    
+    <footer>
+        Iwan Setiawan &copy; 2025
+    </footer>
+</body>
+</html>
